@@ -1,0 +1,9 @@
+Total=int(input("총 얼마야: "))
+Money=35500
+while Money:
+    Money-=500
+    A=int(Total/Money)
+    if A%2==0:
+        print("갯수는", A, "단가는", Money)
+    elif Money<14000:
+        break
